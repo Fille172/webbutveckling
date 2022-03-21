@@ -1,0 +1,23 @@
+body{
+    background-color: #333;
+    position: relative;
+    }
+    
+    p{
+    color: white;
+    
+    position:relative;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-iteration-count: 100;
+    animation-delay: 0.5s;
+    animation-direction: normal;
+    }
+    
+    @keyframes animation{
+    0%{color: white; left:50px;}
+
+    100%{color: white;left: 300px; font-size: 5cm;}
+    
+    }
+    
